@@ -1,0 +1,1250 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Ruwudu:wght@400;500;600;700&display=swap');
+.svg_wrap2{display: none;}
+
+:root {
+    --main-bg-color: #7962BA;
+    --txt-color2: #A497C8;
+    --sub-color1: #6752A2;
+    --sub-color2: #FBD2F8;
+    --sub-color3: #CDBCFF;
+    --back-color1: #EDEAFF;
+    --main-font: 'SF_HambakSnow';
+    scroll-behavior: smooth;
+}
+
+.font_r {
+    font-family: 'Ruwudu';
+    padding-top: 10px;
+}
+
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: var(--main-font);
+    /* background: var(--main-bg-color) ; */
+}
+
+
+/* 헤더 */
+
+header {
+    color: #fff;
+    display: flex;
+    width: 100%;
+    height: 110px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 20;
+}
+
+header .container {
+    background: var(--main-bg-color);
+    padding: 0 40px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container .left {
+    width: 956px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header .container .left h1 {
+    width: 70px;
+    height: 70px;
+
+}
+
+header .container .left ul {
+    display: flex;
+    width: 786px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    /* background: #ccc; */
+
+}
+
+header .container .left ul li {
+    font-family: 'SF_HambakSnow';
+    font-size: 32px;
+    width: 150px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+}
+
+header .container .left ul li:hover {
+    color: var(--sub-color3);
+}
+
+header .container .left ul li:first-child {
+    /* padding-left: 0; */
+}
+
+header .container .right {
+    width: 150px;
+    height: 30px;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header .container .right ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+header .container .right ul li:hover {
+    color: var(--sub-color3);
+}
+header .container .right .ham{display: none;}
+
+/* tit 공통 */
+section .tit {
+    position: relative;
+}
+
+section .tit h2 {
+    color: var(--main-bg-color);
+    font-size: 90px;
+    font-weight: 800;
+    line-height: normal;
+    border-bottom: 4px solid var(--main-bg-color);
+}
+
+/* con1 */
+main {
+    margin-top: 110px;
+}
+
+/* 메인 비주얼 뒷 배경 */
+main .con1 {
+    background: url(../img/main_visual1.png) no-repeat;
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+main .con1 .back_ground {
+   
+}
+/* 메인 비주얼 배경 흰 부분  */
+main .con1 .back_ground .tay_front {
+    position: absolute;
+    bottom: 0;
+    z-index: 13;
+}
+
+/* 메인 비주얼 테일러 사진들  */
+
+
+/* 테일러 옆모습 */
+main .con1 .back_ground .tay1 {
+    position: absolute;
+    top: 50px;
+    z-index: 10;
+    cursor: pointer;
+   /*  opacity: 1; */
+}
+
+main .con1 .back_ground .tay1.on {
+    animation: fadeAni 0.7s ;
+}
+
+@keyframes fadeAni {
+    0% {
+        transform: scale(1.0);
+    }
+
+    50% {
+        transform: scale(0.9);
+    }
+
+    100% {
+        transform: scale(1.0);
+    }
+}
+
+/* 폴라로이드 */
+main .con1 .back_ground .tay2 {
+    position: absolute;
+    top: 20px;
+    left: 350px;
+    z-index: 7;
+    cursor: pointer;
+}
+main .con1 .back_ground .tay2.on{
+    animation: tayAni2 0.8s;
+}
+
+
+@keyframes tayAni2 {
+   0% {
+        transform: rotate(0deg);
+   }
+
+   50% {
+    transform: rotate(-10deg);
+   }
+
+   100% {
+    transform: rotate(0deg);
+   }
+}
+
+/* 발레사진 */
+main .con1 .back_ground .tay3 {
+    position: absolute;
+    top: 400px;
+    left: 550px;
+    transform: rotate(-10deg);
+    z-index: 2;
+}
+
+/* 레드립 */
+main .con1 .back_ground .tay4 {
+    position: absolute;
+    right: 350px;
+    top: 0;
+    z-index: 1;
+    
+}
+
+/* 보라색폴라 */
+main .con1 .back_ground .tay5 {
+    position: absolute;
+    top: 80px;
+    right: 115px;
+    transform: rotate(45deg);
+    
+}
+
+/* 스탠딩테이 */
+main .con1 .back_ground .tay6 {
+    position: absolute;
+    right: 200px;
+    top: 100px;
+    z-index: 10;
+}
+
+/* 노란색테이 */
+main .con1 .back_ground .tay7 {
+    position: absolute;
+    right: 40px;
+    top: 350px;
+    transform: rotate(5deg);
+}
+
+main .con1 h2 {
+    font-family: 'continuous';
+    font-size: 128px;
+    position: absolute;
+    left: 150px;
+    top: 480px;
+    color: #fff;
+    z-index: 10;
+    cursor: pointer;
+}
+
+/* con2 */
+
+main .con2 {
+    width: 100%;
+    height: calc(100vh + 300px);
+    position: relative;
+    overflow: hidden;
+    /* cursor: grab;
+    overflow: auto; */
+
+
+}
+
+main .con2 .tit {
+    height: 100px;
+    position: relative;
+
+}
+
+main .con2 .tit h2 {
+    left: 150px;
+}
+
+/* 중앙 라인 */
+main .con2::before {
+    content: '';
+    display: block;
+    width: 300%;
+    height: 3px;
+    background: var(--txt-color2);
+    position: absolute;
+    left: 0;
+    top: 50%;  
+    transform: translateY(-50%);
+}
+
+main .con2 .container {
+    width: 1620px;
+    position: relative;
+}
+
+main .con2 h2 {
+    border: 0;
+}
+
+/* 화살표 라인 */
+
+main .con2 svg {
+    position: absolute;
+    right: 310px;
+    top: 85%;
+    transform: translateY(-50%);
+}
+
+/* 앨범 정보 */
+
+main .con2 .chronicle {
+    width: 250%;
+    height: calc(100% - 100px);
+}
+
+main .con2 .chronicle article {
+    width: 480px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* 동그라미 */
+main .con2 .chronicle article::before {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: var(--txt-color2);
+    left: 100px;
+    top: 50%; 
+    position: absolute;
+    transform: translateY(-50%);
+    z-index: 10;
+    cursor: pointer;
+}
+
+main .con2 .chronicle article::before:hover {
+    background: var(--main-bg-color);
+}
+
+
+/* 앨범 전체 위치 */
+main .con2 .chronicle .era2 {}
+
+main .con2 .chronicle .era3 {
+    left: 30%;
+}
+
+main .con2 .chronicle .era4 {
+    left: 60%;
+}
+
+main .con2 .chronicle .era5 {
+    left: 90%;
+}
+
+main .con2 .chronicle .era6 {
+    left: 120%;
+}
+
+main .con2 .chronicle .era7 {
+    left: 150%;
+}
+
+main .con2 .chronicle .era8 {
+    left: 180%;
+}
+
+main .con2 .chronicle .era9 {
+    left: 210%;
+}
+
+main .con2 .chronicle .era10 {
+    left: 240%;
+}
+
+main .con2 .chronicle .era11 {
+    left: 270%;
+}
+
+/* 에라스 앨범 이름 */
+main .con2 .chronicle article .a_tit {
+    top: 45%;
+    left: 100px;
+    position: absolute;
+    transform: translateY(-100px);
+}
+main .con2 .chronicle article .a_tit h2,main .con2 .chronicle article .a_tit h3{
+    border-bottom: 2px solid transparent;
+    transition: .6s;
+}
+main .con2 .chronicle article .a_tit:hover h2,main .con2 .chronicle article .a_tit:hover h3{
+    border-bottom: 2px solid var(--main-bg-color);
+    color: var(--main-bg-color);
+}
+
+main .con2 .chronicle article:nth-child(2n) .a_tit {
+    top: 50%;
+    transform: translateY(100px);
+}
+
+/* 앨범 텍스트 */
+main .con2 .chronicle article .txt {
+    position: absolute;
+    left: 100px;
+    top: 55%;
+    display: flex;
+    width: 482px;
+    height: 300px;
+    letter-spacing: 0.5;
+    display: none;
+
+}
+
+main .con2 .chronicle article .txt.on{
+    display: block;
+}
+
+main .con2 .chronicle article:nth-child(2n) .txt {
+    top: auto;
+    bottom: 62%;
+}
+
+
+/* 앨범 숫자, 제목 */
+main .con2 .chronicle article h2 {
+    color: var(--txt-color2);
+    font-size: 35px;
+    font-weight: 800;
+    line-height: normal;
+    cursor: pointer;
+    width: 118px;
+}
+
+
+main .con2 .chronicle article h3 {
+    color: var(--txt-color2);
+    font-size: 45px;
+    font-weight: 800;
+    line-height: normal;
+    cursor: pointer;
+}
+
+
+
+main .con2 .chronicle article strong {
+    color: #BBB;
+    font-family: RIDIBatang;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: normal;
+    width: 80px;
+    height: 70px;
+}
+
+main .con2 .chronicle article p {
+    color: #333;
+    text-align: justify;
+    font-family: RIDIBatang;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 390px;
+    height: 300px;
+
+}
+
+
+/* con3 */
+main .con3 {
+    width: 100%;
+    height: 7283px;
+    position: relative;
+}
+
+
+/* 점선 뒷 배경 */
+
+
+/* main .con3 .svg_wrap{
+    overflow: hidden;
+
+} */
+main .con3 .svg_wrap2 {
+    display: none;
+}
+
+
+
+main .con3 svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 485px;
+    left: 0;
+    z-index: -1;
+}
+
+main .con3 .tit_sticky {
+    position: sticky;
+    background: #fff;
+    top: 110px;
+    z-index: 10;
+    width: 100%;
+    height: 130px;
+}
+
+main .con3 .tit {
+    width: 1000px;
+    height: 130px;
+    z-index: 10;
+    position: absolute;
+}
+
+main .con3 .tit1 {
+    left: 200px;
+    top: 0;
+}
+
+main .con3 .tit2 {
+    right: 200px;
+    top: 0;
+}
+
+main .con3 .tit2 h2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+main .con3 img {
+    width: 376px;
+    height: 324px;
+}
+
+/* merch 숍 컨텐츠 */
+main .con3 .con3_all {
+    width: 100%;
+    height: 100%;
+}
+
+main .con3 .con3_all article.con3_1 {
+    width: 100%;
+    height: 3577px;
+    position: relative;
+}
+
+main .con3 .con3_all article.con3_2 {
+    width: 100%;
+    height: 3705px;
+    position: relative;
+}
+main .con3 .con3_all article .merch_all{
+    width: 100%;
+    overflow: hidden;
+}
+main .con3 .con3_all article .merch_all>div {
+    width: 464px;
+    height: 612px;
+    border: 1px solid var(--sub-color1);
+    border-radius: 10px;
+    background: var(--back-color1);
+    position: absolute;
+    text-align: center;
+
+}
+
+main .con3 .con3_all article .merch_all>div span {
+    font-size: 22px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    color: var(--sub-color1);
+
+
+}
+
+main .con3 .con3_all article .merch_all>div p {
+    font-size: 26px;
+    color: var(--sub-color1);
+    margin-top: 10px;
+
+
+}
+
+main .con3 .con3_all article .merch_all>div a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+main .con3 .con3_all article .merch_all>div a p {
+    border: 1px solid var(--sub-color1);
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'TTLaundryGothicB';
+    font-weight: normal;
+    width: 90px;
+    height: 40px;
+    text-align: center;
+    color: #9B97A7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+
+}
+
+main .con3 .con3_all article .merch_all>div img {
+    margin-top: 40px;
+}
+
+main .con3 .con3_all article .merch_all>div.merch1 {
+    left: 10%;
+    top: 8%;
+}
+
+main .con3 .con3_all article .merch_all>div.merch2 {
+    right: 10%;
+    top: 26%;
+}
+
+main .con3 .con3_all article .merch_all>div.merch3 {
+    left: 35%;
+    top: 46%;
+}
+
+main .con3 .con3_all article .merch_all>div.merch4 {
+    left: 10%;
+    top: 65%;
+}
+
+main .con3 .con3_all article .merch_all>div.merch5 {
+    right: 15%;
+    top: 79%;
+}
+
+
+
+main .con3 .con3_all article .merch_all>div.merch6 {
+    left: 7%;
+    top: 5%;
+}
+
+main .con3 .con3_all article .merch_all>div.merch7 {
+     left: 45%;
+    top: 24%;
+}
+
+main .con3 .con3_all article .merch_all>div.merch8 {
+    right: 10%;
+    top: 43%;
+}
+
+main .con3 .con3_all article .merch_all>div.merch9 {
+    left: 23%;
+    top: 62%;
+}
+
+main .con3 .con3_all article .merch_all>div.merch10 {
+    right: 20%;
+    top: 80%;
+}
+
+/* con4 */
+
+main .con4 {
+    width: 100%;
+    height: 1288px;
+    background: url(../img/back_tour.png) no-repeat;
+    padding-top: 237px;
+    position: relative;
+}
+
+/* tour1 */
+main .con4 .container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: yellow;
+}
+
+
+/* world tour 제목 */
+
+main .con4 h2 {
+    font-size: 55px;
+    letter-spacing: 5.5px;
+    color: var(--sub-color2);
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    left: 50%;
+    margin-left: -730px;
+    top: 70%;
+    width: 690px;
+    height: 72px;
+    position: absolute;
+}
+
+/* 투어 컨텐츠 전체 */
+main .con4 .container .tour_all {
+    position: relative;
+    width: 946px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: lawngreen;
+}
+
+main .con4 .container .tour_all>div {
+    width: 100%;
+    height: 86px;
+    border-top: 1px solid rgba(255, 255, 255, 0.30);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.30);
+    font-family: 'SUIT-Regular';
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-top: 5px;
+    background: #7962BA;
+}
+
+
+main .con4 .container .tour_all>div p {
+    color: #fff;
+    font-size: 16px;
+    width: 273px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.2;
+    letter-spacing: 1.6px;
+    /* background: yellow; */
+
+
+}
+
+main .con4 .container .tour_all>div span {
+    color: #EAC9F5;
+    font-size: 16px;
+    /* width: 167px; */
+    height: 20px;
+    display: flex;
+    line-height: 1.2;
+    letter-spacing: 1.6px;
+
+}
+
+main .con4 .container .tour_all>div em {
+    font-family: var(--main-font);
+    color: #fff;
+    display: block;
+    width: 210px;
+    height: 21px;
+    /* background: yellow; */
+
+}
+
+main .con4 .container .tour_all>div a strong {
+    background: var(--sub-color3);
+    width: 160px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    transition: .3s;
+}
+
+main .con4 .container .tour_all>div a:hover strong {
+    background: var(--sub-color2);
+}
+
+/* 투어 밑에 버튼 부분 */
+main .con4 .btn {
+    width: 946px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+/*     justify-content: space-between;
+   */
+    background: red;
+}
+
+main .con4 .btn p {
+    display: flex;
+    color: #fff;
+    font-size: 18px;
+/*     justify-content: center;
+    align-items: center; */
+    letter-spacing: 1.8px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+
+}
+
+main .con4 .btn a {
+    display: flex;
+    background: #fff;
+    color: var(--main-bg-color);
+    width: 256px;
+    height: 34px;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+
+}
+
+
+/* con5 */
+main .con5 {
+    width: 100%;
+    /*     height: 2460px;
+    position: relative; */
+}
+
+main .con5 .tit {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+
+main .con5 h2 {
+    width: 1000px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+main .con5 .container {
+    position: relative;
+    width: 1748px;
+
+
+}
+
+/* 사진 전체 */
+main .con5 .photo_all1 {
+    width: 100%;
+    height: 1242px;
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+}
+
+/* 사진 윗 부분 */
+main .con5 .photo_t {
+    width: 1258px;
+    height: 1242px;
+}
+
+main .con5 .photo_t ul {
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+main .con5 .photo_t ul li {
+    display: flex;
+    align-items: flex-end;
+}
+
+main .con5 .photo_t ul li:nth-child(1) {
+    border-radius: 90px 0px 0px 0px;
+    width: 500px;
+    height: 714px;
+    overflow: hidden;
+}
+
+main .con5 .photo_t ul li:nth-child(2) {
+    width: 748px;
+    height: 714px;
+}
+/* 노란옷 노래하는 테일러 */
+main .con5 .photo_t ul li:nth-child(3) {
+    width: 886px;
+    height: 518px;
+    
+}
+/* 피이노치는 테일러  */
+main .con5 .photo_t ul li:nth-child(4) {
+    width: 362px;
+    height: 518px;
+   
+}
+
+/* 사진 위 오른쪽 텍스트 */
+main .con5 .photo_all1 .txt_box {
+    width: 370px;
+    height: 564px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 30px;
+    /* gap: 20px; */
+}
+
+main .con5 .photo_all1 .txt_box h3 {
+    font-size: 40px;
+    color: var(--sub-color1);
+    padding-bottom: 20px;
+}
+
+main .con5 .photo_all1 .txt_box p {
+    border-top: 2px solid var(--sub-color1);
+    color: #BFBEBF;
+    font-family: Pretendard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 20px 0;
+}
+
+/* txt_box 전체 */
+main .con5 .txt_box {
+    width: 370px;
+    height: 564px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 30px;
+    /* gap: 20px; */
+}
+
+main .con5 .txt_box h3 {
+    font-size: 40px;
+    color: var(--sub-color1);
+    padding-bottom: 20px;
+}
+
+main .con5 .txt_box p {
+    border-top: 2px solid var(--sub-color1);
+    color: #BFBEBF;
+    font-family: Pretendard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 20px 0;
+}
+
+/* photo_b 아래 */
+main .con5 .photo_b {
+    width: 1376px;
+    height: 692px;
+    margin-left: 295px;
+    padding-top: 10px;
+    margin-bottom: 100px;
+}
+
+main .con5 .photo_b ul {
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+main .con5 .photo_b ul li {}
+
+/* 테일러 옆 모습 얼굴 */
+main .con5 .photo_b ul li:nth-child(1) img {
+    width: 470px;
+    height: 340px;
+    object-fit: cover;
+}
+
+/* 기타치는 테일러 */
+main .con5 .photo_b ul li:nth-child(2) img {
+    width: 896px;
+    height: 576px;
+    object-fit: cover;
+    border-radius: 0px 0px 90px 0px;
+}
+
+/* 포토 아래 텍스트  */
+main .con5 .photo_b .txt_box {
+    padding-top: 60px;
+}
+
+
+/* con6 */
+main .con6 {
+    width: 100%;
+    height: 1200px;
+    position: relative;
+    background: url(../img/back_move.gif) center center/cover no-repeat;
+    object-fit: cover;
+}
+
+main .con6 .container {
+    display: flex;
+    /* padding-top: 270px; */
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+/* 폴라로이드 사진  */
+main .con6 .pola {
+    width: 480px;
+    height: 562px;
+    transform: rotate(-11.724deg);
+    /* background: #ccc; */
+    position: relative;
+    transition: .6s;
+    cursor: pointer;
+}
+
+main .con6 .pola:hover {
+    transform: rotate(-20deg);
+}
+
+main .con6 .pola p {
+    position: absolute;
+    color: var(--sub-color1);
+    font-family: Continuous;
+    font-size: 32px;
+    width: 167px;
+    height: 37px;
+    bottom: 70px;
+    right: 70px;
+}
+
+/* 어워즈 부분 */
+main .con6 .awards {
+    width: 660px;
+    height: 273px;
+    font-family: 'Ruwudu';
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+main .con6 .awards h2 {
+    color: #FFF;
+    font-size: 60px;
+    height: 63px;
+}
+
+main .con6 .awards>p {
+    color: #FFF;
+    text-align: justify;
+    font-family: Pretendard;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 40px;
+    padding-top: 20px;
+}
+
+
+/* 셀렉트 앨범 부분 전체  */
+main .con6 .awards .select_all {
+    width: 450px;
+    height: 60px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 4px 4px 5px 1px rgba(51, 51, 51, 0.25);
+    font-size: 22px;
+    color: var(--sub-color1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0 30px;
+}
+
+main .con6 .awards .select_all p {
+    padding-top: 10px;
+}
+
+/* 앨범 선택 부분  */
+main .con6 .awards .select_all select.ab {
+    font-size: 16px;
+    font-family: 'Ruwudu';
+    padding-top: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--sub-color1);
+    border: 1px solid var(--sub-color1);
+    width: 150px;
+    height: 42px;
+    text-align: center;
+
+
+}
+
+main .con6 .awards .select_all select.ab:hover {
+    background: rgba(137, 134, 189, 0.50);
+}
+
+/* footer */
+footer {
+    width: 100%;
+    height: 600px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 78px;
+}
+
+footer .container .tit h2 {
+    font-size: 45px;
+    letter-spacing: 4.5px;
+    color: var(--main-bg-color);
+    text-align: center;
+}
+
+footer .addr {
+    width: 946px;
+    height: 32px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+/* 이메일 입력 */
+footer .addr .email {
+    width: 460px;
+    height: 100%;
+    border-bottom: 2px solid var(--main-bg-color);
+    display: flex;
+}
+
+footer .addr .email p {
+    width: 164px;
+    font-family: 'Pretendard';
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.95px;
+    color: var(--main-bg-color);
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+/* 이메일 입력 인풋  */
+footer .addr .email input {
+    width: calc(100% - 164px);
+    border: 0;
+    background: transparent;
+    font-family: 'Pretendard';
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.95px;
+    color: var(--main-bg-color);
+}
+
+/* 지역 선택 부분 */
+footer .addr .local {
+    width: 460px;
+    height: 100%;
+    border-bottom: 2px solid var(--main-bg-color);
+    /* margin-left: 30px; */
+}
+
+/* 지역 선택 셀렉트 부분 */
+footer .addr .local select {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    font-family: 'Pretendard';
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.95px;
+    color: var(--main-bg-color);
+}
+
+footer .addr .local p a {}
+
+/* 공지사항 부분  */
+footer .notice_all {
+    width: 1180px;
+    height: 188px;
+    text-align: center;
+    font-family: 'SF_HambakSnow';
+    line-height: normal;
+    color: var(--main-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 78px;
+}
+
+footer .notice_all p {
+    width: 100%;
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 1.3;
+    letter-spacing: 1.95px;
+}
+
+
+/* 전송 버튼 부분  */
+footer .notice_all button {
+    border: 1px solid var(--sub-color1);
+    text-align: center;
+    background: transparent;
+    margin-top: 45px;
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 3.6px;
+    color: var(--sub-color1);
+    padding: 12px 24px;
+}
+
+/* sns 부분 */
+footer .sns_all {
+    width: 100%;
+    height: 34px;
+    display: flex;
+    justify-content: flex-end;
+    border-top: 2px solid var(--sub-color1);
+    padding-right: 30px;
+
+}
+
+footer .sns_all i {
+    margin-top: 20px;
+    font-size: 24px;
+    color: var(--sub-color1);
+    padding-left: 30px;
+}

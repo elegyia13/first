@@ -1,0 +1,2023 @@
+@charset "utf-8";
+
+
+/*  ************ 브레이크 포인트 시작 ************* */
+
+@media screen and (max-width:1764px) {
+
+    /* con5 */
+    main .con5 .container {
+        width: 100%;
+    }
+
+    main .con5 .photo_all1 {
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: center;
+        position: relative;
+    }
+
+    main .con5 .photo_all1 .txt_box {
+        height: auto;
+        position: absolute;
+        right: 50%;
+        top: 12%;
+        margin-right: -37%;
+    }
+
+    main .con5 .photo_all1 .txt_box p {
+        display: none;
+    }
+
+    main .con5 .photo_b {
+        margin: 0 auto;
+    }
+
+    main .con5 .tit {
+        padding-right: 10%;
+    }
+
+}
+
+@media screen and (max-width:1662px) {
+
+    /* 스탠딩테이 */
+    main .con1 .back_ground .tay6 {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:1566px) {
+
+    /* 레드립 */
+    main .con1 .back_ground .tay4 {
+        left: 52%;
+
+    }
+
+    /* con4 */
+    /* 투어 타이틀  */
+    main .con4 .container {
+        max-width: 946px;
+    }
+
+    main .con4 h2 {
+        margin-left: -573px;
+    }
+
+
+}
+
+@media screen and (max-width :1400px) {
+
+    /* 전체 타이틀 제목 */
+    section .tit h2 {
+        color: var(--main-bg-color);
+        font-size: 70px;
+        font-weight: 800;
+        line-height: normal;
+        border-bottom: 4px solid var(--main-bg-color);
+    }
+
+    main .con2 h2 {
+        border: 0;
+    }
+
+    /* header */
+    header .container {
+        padding: 0 30px;
+    }
+
+    /* con1 */
+    /* 메인비주얼 테일러 사진들  */
+    main .con1 .back_ground .tay1 {
+        top: 5%;
+        left: 3%;
+    }
+
+    main .con1 .back_ground .tay2 {
+        display: none;
+    }
+
+    main .con1 .back_ground .tay3 {
+        top: 43%;
+        left: 8%;
+    }
+
+    /* 레드립 */
+    main .con1 .back_ground .tay4 {
+        left: 25%;
+        top: 0;
+    }
+
+    /* 보라색폴라 */
+    main .con1 .back_ground .tay5 {
+        right: 8%;
+        top: 5%;
+    }
+
+    /* 스탠딩테이 */
+    main .con1 .back_ground .tay6 {
+        position: absolute;
+        right: 15%;
+        top: 20%;
+        z-index: 10;
+        display: block;
+    }
+
+    main .con1 .back_ground img {
+        width: 100%;
+    }
+
+
+    /* con2  */
+    main .con2 .tit {
+        left: 10%;
+    }
+
+    /* 화살표 라인 */
+    main .con2 svg {
+        left: 27%;
+        top: 75%;
+        width: 500px;
+        height: 80px;
+    }
+
+    /* 에라스 앨범 이름 */
+    main .con2 .chronicle article .a_tit {
+        top: 45%;
+
+    }
+
+    main .con2 .chronicle article .txt p {
+        width: 350px;
+        height: 250px;
+    }
+
+
+    /* con4 */
+
+    /* 투어 배경 */
+    main .con4 {
+        /* background: url(../img/back_tour3.png)no-repeat; */
+        /* padding: 13% 0 0 0; */
+        background-size: cover;
+        background-position: center;
+    }
+
+    main .con4 .container {
+        width: 90%;
+    }
+
+    main .con4 h2 {
+        margin-left: -573px;
+        font-size: 50px;
+        top: 65%;
+    }
+
+    main .con4 .container .tour_all {
+        width: 75%;
+    }
+
+    main .con4 .container .tour_all>div {
+        width: 100%;
+        /* background: #000; */
+        padding: 0;
+    }
+
+    main .con4 .container .tour_all>div p {
+        /*  background: yellow; */
+    }
+
+    main .con4 .btn {
+        width: 75%;
+    }
+
+
+
+
+    /* con5 포토 컨텐츠 */
+    main .con5 .photo_all1 {
+        margin-top: 50px;
+    }
+
+    main .con5 .txt_box {
+        width: 320px;
+        height: 530px;
+    }
+
+    /* 위 텍스트 박스 없애기 */
+    main .con5 .photo_all1 .txt_box {
+        display: none;
+    }
+
+    /*  기타든 테일러 */
+    main .con5 .photo_t {
+        width: 95%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+    }
+
+    main .con5 .photo_t ul li:nth-child(2) {
+        display: none;
+
+    }
+
+
+    main .con5 .photo_t ul li:nth-child(3) {
+        display: none;
+
+    }
+
+    main .con5 .photo_t ul li:nth-child(4) {
+        align-self: flex-end;
+        padding-left: 10px;
+    }
+
+    main .con5 .photo_b {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        height: 940px;
+    }
+
+    main .con5 .photo_b ul li:nth-child(1) {
+        display: flex;
+        margin: 0 auto;
+        height: 340px;
+        width: 863px;
+    }
+
+    main .con5 .photo_b ul li:nth-child(2) {
+        width: 863px;
+        margin: 0 auto;
+    }
+
+    main .con5 .photo_b ul li:nth-child(2) img {
+        width: 100%;
+    }
+
+    main .con5 .photo_b .txt_box h3 {
+        font-size: 35px;
+    }
+
+    main .con5 .photo_b .txt_box p {
+        font-size: 18px;
+    }
+
+    /* con6 */
+
+    /* con6 어워즈  */
+    main .con6 {
+        height: 1000px;
+    }
+
+}
+
+@media screen and (max-width:1296px) {
+
+    .container {
+        width: 100%;
+    }
+
+    /* con1 */
+
+    /* 보라색폴라 */
+    main .con1 .back_ground .tay5 {
+        top: 10%;
+        right: 10%;
+
+    }
+
+    /* 스탠딩테이 */
+
+    main .con1 .back_ground .tay6 {
+        display: none;
+    }
+
+
+
+}
+
+
+@media screen and (max-width:1216px) {
+
+    main .con5 h2 {
+        width: 800px;
+
+    }
+
+
+}
+
+@media screen and (max-width:1197px) {
+
+    /* 넘치는 부분 */
+    footer .notice_all p {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:1196px) {
+    footer {
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width:1150px) {
+
+    header .container .left {
+        justify-content: space-around;
+    }
+
+    header .container .left ul li {
+        font-size: 28px;
+    }
+
+    header .container .right {
+        font-size: 24px;
+    }
+
+    /* con1 */
+    main .con1 h2 {
+        left: 25%;
+        top: 40%;
+    }
+
+    /* 테일러 옆모습 */
+
+    main .con1 .back_ground .tay1 {
+        top: 15%;
+
+    }
+
+
+
+    main .con1 .back_ground .tay2 {
+        display: block;
+        left: 25%;
+        top: 3%;
+        width: 600px;
+        height: 600px;
+    }
+
+    main .con1 .back_ground .tay3 {
+        top: 60%;
+        left: 7%;
+    }
+
+    /* 레드립 */
+    main .con1 .back_ground .tay4 {
+        display: none;
+
+    }
+
+    /* con4 */
+    /* 투어 배경 */
+    /* main .con4 {
+        background: url(../img/back_tour4.png)no-repeat;
+    } */
+
+    main .con4 .container {
+        width: 80%;
+        align-items: center;
+    }
+
+    main .con4 h2 {
+        margin-left: -420px;
+        /* font-size: 50px; */
+        top: 60%;
+    }
+
+    /*  main .con4 .container .tour_all {
+        width: 70%;
+    }
+ */
+    /*  main .con4 .container .tour_all>div {
+        width: 100%;
+        background: #000;
+        padding: 0;
+    } */
+
+    main .con4 .container .tour_all>div p {
+        /*  background: yellow; */
+
+    }
+
+    main .con4 .btn {
+        width: 75%;
+    }
+
+
+
+}
+
+
+@media screen and (max-width:1075px) {
+
+
+    main .con5 .container {
+        width: 90%;
+    }
+
+    main .con6 .awards {
+        /* width: 500px;
+        height: 250px; */
+    }
+
+    main .con6 .awards h2 {
+        font-size: 55px;
+    }
+
+    main .con6 .awards>p {
+        font-size: 22px;
+        /* padding-top: 20px; */
+    }
+
+
+}
+
+
+@media screen and (max-width:1039px) {
+
+
+
+    main .con5 .container {
+        width: 90%;
+    }
+
+    main .con6 .awards {
+        width: 500px;
+        height: 250px;
+    }
+
+    main .con6 .awards h2 {
+        font-size: 50px;
+    }
+
+    main .con6 .awards>p {
+        font-size: 22px;
+        font-weight: 200;
+        padding-top: 20px;
+    }
+
+    footer {
+        overflow: hidden;
+    }
+
+}
+
+/* ****************** 브레이크 포인트 끝 ****************** */
+
+
+
+
+/* *********************** 태블릿 사이즈********************** */
+
+@media screen and (max-width:1024px) {
+
+    /* ******************* header 시작 ****************** */
+    .container {
+        width: 90%;
+        /* background: rgba(0, 0, 0, 0.3); */
+    }
+
+    header .container .left {
+        width: auto;
+    }
+
+    header .container .right ul {
+        display: none;
+    }
+
+    header .container nav {
+        display: none;
+    }
+
+    header .container .right .ham {
+        display: block;
+        font-size: 35px;
+    }
+
+    /* ******************** header 끝 *************** */
+    /* ******************** con1 시작 *************** */
+    main .con1 h2 {
+        left: 20%;
+        top: 60%;
+    }
+
+    /* 메인비주얼 테일러 사진들  */
+    main .con1 .back_ground .tay1 {
+        top: 25%;
+        left: 2%;
+    }
+
+    main .con1 .back_ground .tay2 {
+        display: block;
+        left: 15%;
+        top: 0;
+        width: 600px;
+        height: 600px;
+    }
+
+    main .con1 .back_ground .tay3 {
+        top: 45%;
+        left: 8%;
+        z-index: 7;
+    }
+
+    /* 레드립 */
+    main .con1 .back_ground .tay4 {
+        display: none;
+    }
+
+    /* 보라색폴라 */
+    main .con1 .back_ground .tay5 {
+        display: none;
+    }
+
+    /* 스탠딩테이 */
+    main .con1 .back_ground .tay6 {
+        display: none;
+    }
+
+    /* 노란색테이 */
+    main .con1 .back_ground .tay7 {
+        right: 7%;
+        top: 7%;
+    }
+
+    /* ******************** con1 끝 *************** */
+
+
+    /* ******************** con2 시작 *************** */
+
+
+    /* 이거 안 움직임... ㅜ */
+    main .con2 {
+        height: 100vh;
+        /* background: yellow; */
+    }
+
+    main .con2 .container {
+        width: 100%;
+        /* height: 100%; */
+        /*     */
+    }
+
+    main .con2 .tit h2 {
+        font-size: 70px;
+    }
+
+    main .con2 svg {
+        right: 50%;
+    }
+
+    main .con2 .chronicle {
+        width: 500%;
+        /* height: 100px; */
+        background: red;
+        /* position: relative; */
+    }
+
+    main .con2 .chronicle article {
+        width: 60%;
+        /* background: #ccc; */
+    }
+
+    /* 동그라미 */
+    main .con2 .chronicle article::before {
+        left: 20%;
+
+    }
+
+    /* 에라스 앨범 이름 */
+
+
+    main .con2 .chronicle article .a_tit {
+        top: 45%;
+        left: 100px;
+    }
+
+    main .con2 .chronicle article:nth-child(2n) .a_tit {
+        top: 45%;
+    }
+
+    /* 앨범 텍스트 */
+    main .con2 .chronicle article .txt {
+        left: 15%;
+        top: 55%;
+        width: 460px;
+        height: 250px;
+    }
+
+    main .con2 .chronicle article:nth-child(2n) .txt {
+        top: auto;
+        bottom: 65%;
+    }
+
+    /* ******************** con2 끝 *************** */
+
+
+    /* ******************** con4 시작 *************** */
+
+    /* 투어 배경 */
+    main .con4 {
+        background: url(../img/back_tour4.png)no-repeat;
+        padding: 30% 0 0 0;
+        height: 1288px;
+        background-size: cover;
+    }
+
+    main .con4 .container {
+        width: 80%;
+        margin-right: 20%;
+
+    }
+
+    main .con4 h2 {
+        margin-left: -470px;
+        font-size: 45px;
+        top: 70%;
+
+    }
+
+    main .con4 .container .tour_all {
+        width: 80%;
+    }
+
+    main .con4 .container .tour_all>div {
+        width: 90%;
+        padding: 0;
+    }
+
+    main .con4 .container .tour_all>div p {
+        font-size: 14px;
+    }
+
+
+    main .con4 .container .tour_all>div a strong {
+        font-size: 12px;
+        width: 120px;
+        height: 40px;
+    }
+
+    main .con4 .btn {
+        width: 80%;
+    }
+
+    /* ******************** con4 끝 *************** */
+
+    /* ******************** con5 시작 *************** */
+    /* con5 포토갤러리 */
+
+    main .con5 .tit {
+        padding: 0;
+    }
+
+    main .con5 h2 {
+        width: 750px;
+
+    }
+
+    main .con5 .photo_t {
+        justify-content: flex-end;
+    }
+
+    /* 피이노치는 테일러  */
+    main .con5 .photo_t ul li:nth-child(4) {
+        display: none;
+
+    }
+
+    /* ******************** con5 끝 *************** */
+
+    /* ******************** con6 시작 *************** */
+    /* con6 어워즈 */
+    main .con6 {
+        height: auto;
+        background: url(../img/back_move1024.gif) no-repeat center center;
+    }
+
+    main .con6 .container {
+        height: 100%;
+        padding: 200px 0;
+        justify-content: space-evenly;
+    }
+
+    /* 폴라로이드 사진  */
+    main .con6 .pola {
+        width: 40%;
+        height: auto;
+    }
+
+    main .con6 .pola img {
+        width: 100%;
+    }
+
+    main .con6 .pola p {
+        bottom: 9%;
+        right: 14%;
+    }
+
+    /* 어워즈 부분 */
+    main .con6 .awards {
+        width: auto;
+        height: auto;
+    }
+
+    main .con6 .awards h2 {
+        font-size: 40px;
+    }
+
+    main .con6 .awards>p {
+        font-size: 20px;
+        padding-top: 15px;
+
+    }
+
+    /* 셀렉트 앨범 부분 전체  */
+    main .con6 .awards .select_all {
+        width: 350px;
+        font-size: 20px;
+    }
+
+    /* 앨범 선택 부분  */
+    main .con6 .awards .select_all select.ab {
+        font-size: 15px;
+        font-weight: 300;
+    }
+
+    /* ******************** con6 끝 *************** */
+
+    /* ******************** footer 시작 *************** */
+    footer {
+        height: auto;
+        margin-top: 0;
+    }
+
+    footer .container {
+        margin: 80px auto 78px;
+        height: auto;
+    }
+
+    footer .sns_all {
+        height: auto;
+        padding-bottom: 24px;
+    }
+
+    footer .notice_all p {
+        width: 80%;
+    }
+
+    /* 전송 버튼 부분  */
+    footer .notice_all button {
+        font-weight: 600;
+        
+    }
+
+
+
+
+    /* ******************** footer 끝 *************** */
+}
+
+/* *********************** 태블릿 사이즈 끝********************** */
+
+
+
+@media screen and (max-width:946px) {
+
+    /* con4 */
+    main .con4 .container {
+        max-width: 95%;
+        width: 100%;
+    }
+
+    main .con4 h2 {
+        margin-left: -373px;
+        top: 65%;
+    }
+
+    main .con4 .container .tour_all {
+        width: 90%;
+        margin-left: 20%;
+    }
+
+    main .con4 .container .tour_all>div {
+        width: 90%;
+        padding: 0;
+    }
+
+    main .con4 .container .tour_all>div p {
+        /*  flex: 1; */
+        /* background: yellow; */
+    }
+
+    main .con4 .btn {
+        width: 90%;
+    }
+
+    main .con5 .photo_b ul li:nth-child(2) {
+        width: 100%;
+
+    }
+
+    /* ***************** footer ************ */
+
+    footer .container {
+        width: 90%;
+    }
+
+    footer .container .tit h2 {
+        font-size: 40px;
+    }
+
+    footer .addr {
+        width: 90%;
+
+    }
+
+    footer .addr .email {
+        width: 48%;
+        height: 100%;
+    }
+
+    footer .addr .local {
+        width: 48%;
+    }
+
+    footer .notice_all {
+
+        width: 100%;
+        height: 100%;
+    }
+
+
+}
+
+@media screen and (max-width:929px) {
+
+
+    /* con5 포토갤러리 */
+
+    main .con5 h2 {
+        width: 750px;
+
+    }
+
+    main .con5 .photo_t {
+        justify-content: flex-end;
+    }
+
+
+    /* 피이노치는 테일러  */
+    main .con5 .photo_t ul li:nth-child(4) {
+        display: none;
+
+    }
+
+
+    main .con6 {
+        width: 100%;
+        height: 850px;
+    }
+
+
+
+
+}
+
+@media screen and (max-width:900px) {
+
+    /* ******************** con4 시작 *************** */
+
+    /* 투어 배경 */
+    main .con4 {
+        /* background: url(../img/back_tour4.png)no-repeat; */
+        /* padding: 15% 0 0 0; */
+    }
+
+    main .con4 .container {
+        width: 90%;
+    }
+
+    main .con4 h2 {
+        margin-left: -400px;
+    }
+
+    main .con4 .container .tour_all {
+        width: 90%;
+    }
+
+    main .con4 .container .tour_all>div {
+        width: 90%;
+        padding: 0;
+    }
+
+    main .con4 .container .tour_all>div p {
+        font-size: 14px;
+    }
+
+    /* ******************** con4 끝 *************** */
+
+
+
+
+    /* con5 */
+
+    main .con5 .txt_box {
+        width: 80%;
+        height: 80%;
+
+    }
+}
+
+@media screen and (max-width:834px) {
+    main .con1 h2 {
+        font-size: 100px;
+        left: 150px;
+        top: 65%;
+    }
+}
+
+
+
+/* **************** 핸드폰 사이즈1 ***************** */
+@media screen and (max-width:768px) {
+
+    /* 메인비주얼 테일러 사진들  */
+    main .con1 .back_ground .tay1 {
+        top: 23%;
+        left: 2%;
+    }
+
+    main .con1 .back_ground .tay3 {
+        top: 55%;
+        left: 12%;
+        width: 90%;
+        height: 90%;
+        z-index: 8;
+    }
+
+    /* ******************** con4 시작 *************** */
+
+    /* 투어 배경 */
+    main .con4 {
+        /* background: url(../img/back_tour4.png)no-repeat; */
+        /* padding: 15% 0 0 0; */
+        background-position: center;
+        background-size: cover;
+    }
+
+    main .con4 .container {
+        width: 90%;
+        margin-top: 10%;
+
+    }
+
+    main .con4 h2 {
+        margin-left: -320px;
+        top: 64%;
+        font-size: 40px;
+    }
+
+    main .con4 .container .tour_all {
+        width: 90%;
+    }
+
+    main .con4 .container .tour_all>div {
+        width: 90%;
+        padding: 0;
+    }
+
+    main .con4 .btn {
+        width: 90%;
+    }
+
+    main .con4 .container .tour_all>div:last-child p {
+        font-size: 14px;
+    }
+
+    /* ******************** con4 끝 *************** */
+
+
+    /* ******************** con6 시작 *************** */
+    /* con6 어워즈 */
+    main .con6 {
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    main .con6 .container {
+        height: 100%;
+        justify-content: space-evenly;
+    }
+
+    /* 폴라로이드 사진  */
+    main .con6 .pola {
+        width: 40%;
+        height: auto;
+    }
+
+    main .con6 .pola img {
+        width: 100%;
+    }
+
+    main .con6 .pola p {
+        bottom: 5%;
+        right: 0;
+        font-size: 22px;
+    }
+
+    /* 어워즈 부분 */
+    main .con6 .awards {
+        width: auto;
+        height: auto;
+    }
+
+    main .con6 .awards h2 {
+        font-size: 40px;
+    }
+
+    main .con6 .awards>p {
+        font-size: 20px;
+        padding: 0;
+
+    }
+
+    /* 셀렉트 앨범 부분 전체  */
+    main .con6 .awards .select_all {
+        width: 350px;
+        font-size: 20px;
+    }
+
+    /* 앨범 선택 부분  */
+    main .con6 .awards .select_all select.ab {
+        font-size: 15px;
+        font-weight: 300;
+    }
+
+    /* ******************** con6 끝 *************** */
+
+
+
+
+
+
+    /* ******************** footer 시작 *************** */
+    footer {
+        height: auto;
+        margin-top: 0;
+    }
+
+    footer .container {
+        margin: 80px auto 78px;
+        height: auto;
+    }
+
+    footer .container .tit h2 {
+        font-size: 36px;
+    }
+
+    footer .addr {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    footer .addr .email {
+        width: 48%;
+    }
+
+    footer .addr .local {
+        width: 48%;
+    }
+
+
+
+    footer .sns_all {
+        height: auto;
+        padding-bottom: 24px;
+    }
+
+    footer .notice_all {
+        width: 100%;
+    }
+
+    footer .notice_all p {
+        width: 100%;
+    }
+
+    /* 전송 버튼 부분  */
+    footer .notice_all button {
+        margin-top: 5%;
+        width: 20%;
+        height: 40px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+
+
+
+    /* ******************** footer 끝 *************** */
+
+}
+
+@media screen and (max-width:694px) {
+
+    /* con1 */
+    main .con1 h2 {
+        left: 15%;
+        top: 60%;
+    }
+
+
+
+    /* con5 */
+    /* 포토 아래 텍스트  */
+    main .con5 .photo_b {
+        width: 100%;
+
+    }
+
+    main .con5 .photo_b .txt_box {
+        padding-top: 60px;
+    }
+
+
+    /* 어워즈 부분 */
+    main .con6 {
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    main .con6 .container {}
+
+    main .con6 .awards {
+        width: 60%;
+        height: auto;
+        align-items: flex-start;
+    }
+
+    main .con6 .awards>p {
+        font-size: 16px;
+        padding: 0;
+
+    }
+
+    /* 셀렉트 앨범 부분 전체  */
+    main .con6 .awards .select_all {
+        width: 70%;
+        height: auto;
+        font-size: 20px;
+    }
+
+    main .con6 .awards .select_all p {
+        font-size: 14px;
+
+    }
+
+    /* 앨범 선택 부분  */
+    main .con6 .awards .select_all select.ab {
+        font-size: 14px;
+        width: 80%;
+        height: 100%;
+    }
+
+}
+
+@media screen and (max-width:680px) {
+
+    /* con5 */
+    /* 포토 아래 텍스트  */
+    main .con5 .photo_b {
+        width: 100%;
+
+    }
+
+    main .con5 .photo_b ul {
+        display: flex;
+        height: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: space-between;
+    }
+
+    main .con5 .photo_b .txt_box {
+        /* padding-top: 60px; */
+    }
+
+
+
+    /* con6 */
+    /* 어워즈 부분 */
+    main .con6 {
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    main .con6 .container {
+        width: 90%;
+        align-items: center;
+    }
+
+    main .con6 .awards {
+        width: 60%;
+        height: auto;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    main .con6 .awards>p {
+        font-size: 16px;
+        padding: 0;
+
+    }
+
+    /* 셀렉트 앨범 부분 전체  */
+    main .con6 .awards .select_all {
+        width: 70%;
+        height: auto;
+        font-size: 20px;
+    }
+
+    main .con6 .awards .select_all p {
+        font-size: 14px;
+
+    }
+
+    /* 앨범 선택 부분  */
+    main .con6 .awards .select_all select.ab {
+        font-size: 14px;
+        width: 80%;
+        height: 100%;
+    }
+
+
+}
+
+@media screen and (max-width:646px) {
+
+
+
+    /* con4 */
+    main .con4 h2 {
+        margin-left: -270px;
+        top: 64%;
+        font-size: 40px;
+    }
+
+
+
+
+    /* con5 */
+    /* 포토 아래 텍스트  */
+    main .con5 .photo_b {
+        width: 100%;
+
+    }
+
+    main .con5 .photo_b ul {
+        justify-content: space-between;
+        /* background-color: #ccc; */
+        width: 100%;
+        height: 100%;
+
+
+    }
+
+    main .con5 .photo_b li:nth-child(1) {
+        flex-direction: column;
+
+    }
+
+    main .con5 .photo_b li:nth-child(2) img {
+        width: 50%;
+        height: 60%;
+    }
+}
+
+
+@media screen and (max-width:512px) {
+
+    /* con1 */
+    main .con1 h2 {
+        left: 25%;
+        top: 40%;
+    }
+
+    /* 테일러 옆모습 */
+
+    main .con1 .back_ground .tay1 {
+        top: 35%;
+        left: 0;
+        width: 90%;
+
+    }
+
+    main .con1 .back_ground .tay2 {
+        left: 0;
+        top: 0;
+        width: 95%;
+    }
+
+    main .con1 .back_ground .tay3 {
+        top: 60%;
+        left: 20%;
+    }
+
+
+    main .con1 .back_ground .tay7 {
+        width: 60%;
+        top: 40%;
+        right: 7%;
+
+    }
+
+    main .con1 h2 {
+        font-size: 90px;
+        width: 90%;
+        left: 30%;
+        top: 65%;
+    }
+
+    /* ******************** con4 시작 *************** */
+
+    /* 투어 배경 */
+    main .con4 {
+        /* background: url(../img/back_tour4.png)no-repeat; */
+        /* padding: 15% 0 0 0; */
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        overflow: hidden;
+
+    }
+
+    main .con4 .container {
+        width: 95%;
+        margin-top: 10%;
+
+    }
+
+    main .con4 h2 {
+        margin-left: -220px;
+        top: 65%;
+        font-size: 45px;
+    }
+
+    main .con4 .container .tour_all {
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 10%;
+        margin-bottom: 20%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15%;
+        gap: 5px;
+
+    }
+
+    main .con4 .container .tour_all>div {
+        width: 80%;
+        margin: 0;
+        height: 80%;
+        flex-direction: column;
+        text-align: center;
+        /* margin-top: 1%; */
+
+    }
+
+    main .con4 .container .tour_all>div p {
+        font-size: 12px;
+    }
+
+    main .con4 .container .tour_all>div span {
+        font-size: 14px;
+        display: inline-block;
+    }
+
+    main .con4 .container .tour_all>div em {
+        font-size: 14px;
+    }
+
+    main .con4 .container .tour_all>div a strong {
+        width: 120px;
+        height: 32px;
+
+    }
+
+    main .con4 .container .tour_all>div:last-child {
+        display: none;
+    }
+
+    main .con4 .container .tour_all>div a strong {
+        margin-bottom: 3%;
+    }
+
+
+    /* ******************** con4 끝 *************** */
+
+    /* con5 */
+    /* 포토 아래 텍스트  */
+
+    main .con5 {
+        overflow: hidden;
+    }
+
+    main .con5 .container .tit h2 {
+        font-size: 50px;
+    }
+
+    main .con5 .photo_t {
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    main .con5 .photo_t ul {
+        /* justify-content: space-around; */
+    }
+
+    main .con5 .photo_t ul li:nth-child(1) {
+        border-radius: 90px 0px 0px 0px;
+        width: 80%;
+        /* justify-content: flex-end;
+        align-items: center; */
+    }
+
+    main .con5 .photo_b {
+        width: 100%;
+        /*  justify-content: flex-end; */
+
+    }
+
+    main .con5 .photo_b ul {
+        justify-content: space-between;
+        /* background-color: #ccc; */
+        width: 100%;
+        height: 100%;
+        align-content: flex-start;
+        justify-content: center;
+
+
+
+    }
+
+    main .con5 .photo_b li:nth-child(1) {
+        flex-direction: column;
+
+    }
+
+    main .con5 .photo_b li:nth-child(2) {
+        display: none;
+    }
+
+    /* con6 */
+    /* 어워즈 부분 */
+    main .con6 {
+        /* width: 100%;
+        height: 100%; */
+        background-position: center;
+        background-size: cover;
+
+    }
+
+    main .con6 .container {
+        width: 100%;
+        flex-direction: column;
+
+    }
+
+    main .con6 .awards {
+        width: 90%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        margin-top: 7%;
+    }
+
+    main .con6 .awards h2 {
+        font-size: 32px;
+    }
+
+    main .con6 .awards>p {
+        font-size: 14px;
+        padding: 0;
+        line-height: 2;
+        text-align: center;
+
+    }
+
+    main .con6 .pola {
+        width: 80%;
+        height: auto;
+
+    }
+
+    /* 셀렉트 앨범 부분 전체  */
+    main .con6 .awards .select_all {
+        width: 70%;
+        height: auto;
+        font-size: 18px;
+    }
+
+    main .con6 .awards .select_all p {
+        font-size: 14px;
+
+    }
+
+    /* 앨범 선택 부분  */
+    main .con6 .awards .select_all select.ab {
+        font-size: 14px;
+        width: 60%;
+        height: 100%;
+        margin: 8px 0;
+    }
+
+    /* ******************** footer 시작 *************** */
+
+
+    /* 전송 버튼 부분  */
+    footer .notice_all button {
+        margin-top: 5%;
+        width: 30%;
+        height: 40px;
+        font-size: 16px;
+
+    }
+
+
+
+
+    /* ******************** footer 끝 *************** */
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width:440px) {
+
+    /* con1 */
+    main .con1 h2 {
+        left: 25%;
+        top: 75%;
+    }
+
+    /* 테일러 옆모습 */
+
+    main .con1 .back_ground .tay1 {
+        top: 48%;
+        left: -5%;
+        width: 90%;
+
+    }
+
+    main .con1 .back_ground .tay2 {
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+
+    main .con1 .back_ground .tay3 {
+        top: 65%;
+        left: 25%;
+    }
+
+
+    main .con1 .back_ground .tay7 {
+        width: 70%;
+        top: 35%;
+        right: 7%;
+
+    }
+
+    main .con1 h2 {
+        font-size: 90px;
+        width: 90%;
+        left: 30%;
+        top: 65%;
+    }
+
+
+
+
+    /* ******************** con4 시작 *************** */
+
+    /* 투어 배경 */
+    main .con4 {
+        background: url(../img/back_tour6.png)no-repeat;
+        /* padding: 15% 0 0 0; */
+        background-position: center;
+        background-size: cover;
+        overflow: hidden;
+
+    }
+
+    main .con4 .container {
+        width: 90%;
+        margin: 20% 0 0 15%;
+
+    }
+
+    main .con4 h2 {
+        margin-left: -150px;
+        top: 65%;
+        font-size: 45px;
+    }
+
+
+    /* ******************** con4 끝 *************** */
+
+    /* con5 */
+    /* 포토 아래 텍스트  */
+
+    main .con5 {
+        overflow: hidden;
+    }
+
+    main .con5 .container {
+        width: 80%;
+    }
+
+    main .con5 .container .tit h2 {
+        font-size: 35px;
+    }
+
+    main .con5 .photo_t {
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    main .con5 .photo_t ul {
+        /* justify-content: center; */
+    }
+
+    main .con5 .photo_t ul li:nth-child(1) {
+        border-radius: 90px 0px 0px 0px;
+        width: 80%;
+
+    }
+
+    main .con5 .photo_b {
+        width: 100%;
+        /*  justify-content: flex-end; */
+
+    }
+
+    main .con5 .photo_b ul {
+        justify-content: space-between;
+        /* background-color: #ccc; */
+        width: 100%;
+        height: 100%;
+        align-content: flex-start;
+        justify-content: center;
+
+
+
+    }
+
+    main .con5 .photo_b li:nth-child(1) {
+        flex-direction: column;
+
+    }
+
+    main .con5 .photo_b li:nth-child(2) {
+        display: none;
+    }
+
+    /* 포토 아래 텍스트  */
+    main .con5 .photo_b .txt_box {
+        padding-left: 10%;
+    }
+
+
+
+
+
+}
+/* **************** 핸드폰 사이즈2 ***************** */
+@media screen and (max-width:414px) {
+
+    /* con1 */
+    main .con1 h2 {
+        left: 25%;
+        top: 75%;
+    }
+
+    /* 테일러 옆모습 */
+
+    main .con1 .back_ground .tay1 {
+        top: 48%;
+        left: -5%;
+        width: 90%;
+
+    }
+
+    main .con1 .back_ground .tay2 {
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+
+    main .con1 .back_ground .tay3 {
+        top: 65%;
+        left: 25%;
+    }
+
+
+    main .con1 .back_ground .tay7 {
+        width: 70%;
+        top: 35%;
+        right: 7%;
+
+    }
+
+    main .con1 h2 {
+        font-size: 90px;
+        width: 90%;
+        left: 30%;
+        top: 65%;
+    }
+
+
+
+
+    /* ******************** con4 시작 *************** */
+
+    /* 투어 배경 */
+    main .con4 {
+        background: url(../img/back_tour6.png)no-repeat;
+        /* padding: 15% 0 0 0; */
+        background-position: center;
+        background-size: cover;
+        overflow: hidden;
+
+    }
+
+    main .con4 .container {
+        width: 90%;
+        margin: 20% 0 0 15%;
+
+    }
+
+    main .con4 h2 {
+        margin-left: -150px;
+        top: 65%;
+        font-size: 45px;
+    }
+
+
+    /* ******************** con4 끝 *************** */
+
+    /* con5 */
+    /* 포토 아래 텍스트  */
+
+    main .con5 {
+        overflow: hidden;
+        height: 1500px;
+    }
+    main .con5 .photo_all1 {
+        height: 100%;
+    }
+    main .con5 .container {
+        width: 80%;
+    }
+
+    main .con5 .container .tit h2 {
+        font-size: 35px;
+    }
+
+    main .con5 .photo_t {
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    main .con5 .photo_t ul {
+        align-content: flex-start;
+        justify-content: center;
+    }
+
+    main .con5 .photo_t ul li:nth-child(1) {
+        border-radius: 90px 0px 0px 0px;
+        width: 66%;
+        height: 100%;
+    }
+    
+    main .con5 .photo_b {
+        width: 100%;
+        height: 800px;
+        /*  justify-content: flex-end; */
+
+    }
+
+    main .con5 .photo_b ul {
+        /* background-color: #ccc; */
+        width: 100%;
+        height: auto;
+        align-content: flex-start;
+        justify-content: center;
+
+    }
+
+    main .con5 .photo_b ul li:nth-child(1) {
+        flex-direction: column;
+        height: 100%;
+
+    }
+
+    main .con5 .photo_b li:nth-child(2) {
+        display: none;
+    }
+
+    /* 포토 아래 텍스트  */
+    main .con5 .photo_b .txt_box {
+        padding-left: 10%;
+        flex-direction: column;
+    }
+
+/* ******************** footer 시작 *************** */
+footer {
+    height: auto;
+    margin-top: 0;
+}
+
+footer .container {
+    margin: 80px auto 78px;
+    height: auto;
+}
+
+footer .container .tit h2 {
+    font-size: 36px;
+}
+
+footer .addr {
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .addr .email {
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+footer .addr .local {
+    width: 90%;
+}
+
+
+
+footer .sns_all {
+    height: auto;
+    padding-bottom: 24px;
+}
+
+footer .notice_all {
+    width: 100%;
+}
+
+footer .notice_all p {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+}
+
+
+@media screen and (max-width:360px) {
+   /* con1 */
+   main .con1 h2 {
+    left: 12%;
+    top: 75%;
+    font-size: 50px;
+}
+
+/* 테일러 옆모습 */
+
+main .con1 .back_ground .tay1 {
+    top: 55%;
+    left: -5%;
+    width: 90%;
+
+}
+
+main .con1 .back_ground .tay7 {
+    width: 70%;
+    top: 30%;
+    right: 7%;
+
+}
+
+/* con5 */
+    
+
+   main .con5 .container .tit h2 {
+        font-size: 32px;
+    }
+
+   
+   /* con6 */
+   
+    
+    /* 셀렉트 앨범 부분 전체  */
+    main .con6 .awards .select_all {
+        width: 80%;
+        height: auto;
+        font-size: 16px;
+    }
+
+    main .con6 .awards .select_all p {
+        font-size: 14px;
+
+    }
+
+
+
+    /* 앨범 선택 부분  */
+    main .con6 .awards .select_all select.ab {
+        width: 70%;
+    }
+
+
+
+
+/* ******************** footer 시작 *************** */
+footer {
+    height: auto;
+    margin-top: 0;
+}
+
+footer .container {
+    margin: 80px auto 78px;
+    height: auto;
+}
+
+footer .container .tit h2 {
+    font-size: 36px;
+}
+
+footer .addr {
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .addr .email {
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+footer .addr .local {
+    width: 90%;
+}
+
+
+
+footer .sns_all {
+    height: auto;
+    padding-bottom: 24px;
+}
+
+footer .notice_all {
+    width: 100%;
+}
+
+footer .notice_all p {
+    width: 100%;
+}
+
+
+
+
+
+/* ******************** footer 끝 *************** */
+
+
+
+
+}
